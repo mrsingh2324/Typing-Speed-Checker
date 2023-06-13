@@ -170,7 +170,7 @@ const Body = () => {
         <div className="mx-auto w-full max-w-lg">
           <div className="flex justify-between items-center mb-4">
             <span>Time Remaining: {formatTime(time)}</span>
-            <span>Words Per Minute: {currentSpeed}</span>
+            {/* <span>Words Per Minute: {currentSpeed}</span> */}
           </div>
           <div className="bg-gray-900 p-6 rounded max-h-[100px] overflow-y-auto">
             {array.map((word, index) => (
@@ -183,7 +183,7 @@ const Body = () => {
                 {word}{" "}
               </span>
             ))}
-        </div>
+          </div>
           <input
             type="text"
             className={`bg-gray-900 w-full mt-4 py-2 px-4 text-xl text-white border border-transparent focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent`}
@@ -194,8 +194,8 @@ const Body = () => {
             autoFocus
           />
           <div className="mt-4">
-            <span>Correct Words: {correctWords}</span>
-            <span className="ml-4">Total Words Typed: {wordIndex}</span>
+            {/* <span>Correct Words: {correctWords}</span> */}
+            {/* <span className="ml-4">Total Words Typed: {wordIndex}</span> */}
           </div>
           {!takeInput ? (
             <div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50">
