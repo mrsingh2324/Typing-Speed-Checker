@@ -7,7 +7,7 @@ const Body = () => {
   const [correctWords, setCorrectWords] = useState(0);
   const [wordIndex, setWordIndex] = useState(0);
   const [incorrectWordIndex, setIncorrectWordIndex] = useState(-1);
-  const [time, setTime] = useState(15);
+  const [time, setTime] = useState(1);
   const [currentSpeed, setCurrentSpeed] = useState(0); // use currentSpeed instead of totalWordsTyped
   const [startTime, setStartTime] = useState(null);
   const [endTime, setEndTime] = useState(null);
@@ -202,6 +202,12 @@ const Body = () => {
               <div class="bg-white text-black px-6 py-8 rounded-md shadow-md text-center">
                 <h2 class="text-xl font-bold mb-4">Time's Up!</h2>
                 <p class="text-lg ">Typing Speed : {finalSpeed}</p>
+                {/* <button
+                  className="bg-blue-600 mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  onClick={window.location.reload()}
+                >
+                  Restart
+                </button> */}
               </div>
             </div>
           ) : (
