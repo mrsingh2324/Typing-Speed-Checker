@@ -146,6 +146,9 @@ const Body = () => {
               className="border border-gray-700 bg-transparent px-2 py-1 rounded-md"
             >
               <option value="15" className="bg-gray-700">
+                Select
+              </option>
+              <option value="15" className="bg-gray-700">
                 15 seconds
               </option>
               <option value="30" className="bg-gray-700">
