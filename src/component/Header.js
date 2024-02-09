@@ -12,15 +12,15 @@ const Header = () => {
       <div className="left basis-[70%] flex items-center gap-5">
         <BsFillKeyboardFill className="text-3xl" />
         <p>Typing master</p>
-        <BsKeyboard className="hover:text-green-500 hover:cursor-pointer"/>
-        <AiOutlineCrown className="hover:text-green-500 hover:cursor-pointer" />
-        <GrIndicator className="hover:text-green-500 hover:cursor-pointer" />
-        <AiOutlineSetting  className="hover:text-green-500 hover:cursor-pointer" />
+        // <BsKeyboard className="hover:text-green-500 hover:cursor-pointer"/>
+        // <AiOutlineCrown className="hover:text-green-500 hover:cursor-pointer" />
+        // <GrIndicator className="hover:text-green-500 hover:cursor-pointer" />
+        // <AiOutlineSetting  className="hover:text-green-500 hover:cursor-pointer" />
       </div>
-      <div className="left flex justify gap-5 justify-between ">
-        <GrNotification className="hover:text-green-500 hover:cursor-pointer" />
-        <CgProfile className="hover:text-green-500 hover:cursor-pointer" />
-      </div>
+      // <div className="left flex justify gap-5 justify-between ">
+        // <GrNotification className="hover:text-green-500 hover:cursor-pointer" />
+        // <CgProfile className="hover:text-green-500 hover:cursor-pointer" />
+      // </div>
     </div>
   );
 };
